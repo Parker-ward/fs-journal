@@ -39,7 +39,13 @@ function drawCart(){
 
 
 
-function getTotal(){}
+function getTotal(){
+    let total = 0
+    cart.forEach(p =>{
+        total += p.price
+    })
+    return total
+}
 
 function checkOut(){}
 

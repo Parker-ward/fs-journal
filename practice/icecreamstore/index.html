@@ -42,9 +42,47 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- <div class="col-md-6 py-4">
+                            <div class="card product-card">
+                                <img src="https://images.unsplash.com/photo-1561230101-2c841778f9ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" alt="Vanilla">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <p><b>Product Name</b></p>
+                                        <p>$1</p>
+                                        <button
+                                        class="btn btn-outline-secondary"
+                                        title="Add To Cart"
+                                        onclick="addItemToCart('Vanilla')"
+                                        >
+                                        <i class="mdi mdi-cart"></i>
+                                        <small>ADD</small>
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
                         <div class="col-md-6 py-4">
                             <div class="card product-card">
-                                <img src="//via.placeholder.com/150" alt="">
+                                <img src="https://images.unsplash.com/photo-1646321155376-8bd75e03469b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80" alt="Cookie Dough">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <p><b>Product Name</b></p>
+                                        <p>$1</p>
+                                        <button
+                                        class="btn btn-outline-secondary"
+                                        title="Add To Cart"
+                                        onclick="addItemToCart('Cookie Dough')"
+                                        >
+                                        <i class="mdi mdi-cart"></i>
+                                        <small>ADD</small>
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 py-4">
+                            <div class="card product-card">
+                                <img src="https://images.unsplash.com/photo-1532678465554-94846274c297?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Strawberry">
                                 <div class="card-body">
                                     <div class="d-flex align-items-center justify-content-between">
                                         <p><b>Product Name</b></p>
@@ -70,10 +108,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="display-6">Total: $<span id="cart-total"></span></div>
+                        <div><button class="btn btn-warning" onclick="checkout()">Checkout</button></div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
-    <footer class="bg-secondary p-3 d-flex align-items-center text-light"> </footer>
+    <footer class="bg-secondary p-3 d-flex align-items-center text-light">ENJOY</footer>
 <script src="app.js"></script>
 </body>
 </html>
