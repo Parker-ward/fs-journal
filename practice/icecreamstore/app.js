@@ -36,9 +36,6 @@ function drawCart(){
 }
 
 
-
-
-
 function getTotal(){
     let total = 0
     cart.forEach(p =>{
