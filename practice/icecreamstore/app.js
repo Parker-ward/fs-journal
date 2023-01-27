@@ -33,6 +33,7 @@ function drawCart(){
     })
     cartElem.innerHTML = template
 
+    getTotal()
 }
 
 
