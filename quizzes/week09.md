@@ -43,10 +43,10 @@
 **9.** During which ceremony is your Sprint Backlog created?
 <!-- enter you answer in the space below -->
 ```
-
+  - The sprint planning session
 ```
 **10.** In which of these ceremonies are Tasks assigned to you?
 <!-- enter you answer in the space below -->
 ```
-
+  - sprint planning session
 ```
